@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from backend.diagram import create_diagram
+from diagram import create_diagram
 
 app = FastAPI(
     title="UML Diagram Generator API",
